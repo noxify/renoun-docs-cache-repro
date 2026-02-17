@@ -1,0 +1,31 @@
+---
+title: "GraphQL Grammar"
+---
+
+## graphql
+
+```graphql
+query GetUser($id: ID!) {
+  user(id: $id) {
+    id
+    name
+    posts {
+      title
+      createdAt
+    }
+  }
+}
+```
+
+## gql
+
+```gql
+query {
+  endpoint(sorting: { field: "fieldName", direction: DESC }) {
+    nodes {
+      fieldname1
+      alias: fieldName2
+    }
+  }
+}
+```

@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "docs",
+  "homepage": "https://docs.renoun.dev",
+  "description": "A documentation site using MDX.",
+  "scripts": {
+    "dev": "renoun next dev",
+    "build": "renoun next build"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "3.1.1",
+    "@mdx-js/react": "3.1.1",
+    "@next/mdx": "16.1.6",
+    "@renoun/mdx": "3.8.1",
+    "@tailwindcss/postcss": "4.1.18",
+    "@tailwindcss/typography": "0.5.19",
+    "@types/node": "24.10.13",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "geist": "1.7.0",
+    "lucide-react": "0.570.0",
+    "next": "16.1.6",
+    "react-aria-components": "1.15.1",
+    "renoun": "https://raw.githubusercontent.com/souporserious/renoun/package-preview/395/renoun-11.3.0-f7e392c.tgz",
+    "tailwindcss": "4.1.18",
+    "tailwindcss-react-aria-components": "2.0.1",
+    "tm-themes": "1.11.2",
+    "ts-morph": "27.0.2",
+    "typescript": "5.9.3",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tm-grammars": "1.30.9"
+  }
+}

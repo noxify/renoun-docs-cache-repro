@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# renoun
+.renoun
+
+# next.js
+.next
+out
+next-env.d.ts
+
+# production
+build
+dist
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+
+# environment files
+.env
+.env.local
+
+# typescript
+*.tsbuildinfo
