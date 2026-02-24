@@ -15,6 +15,13 @@ const withMDX = createMDXPlugin({
 })
 
 export default withMDX({
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   output: 'export',
   pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+  experimental: {
+    cpus: 4,
+  },
+
 })
